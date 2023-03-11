@@ -14,6 +14,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.apache.log4j.Logger;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -23,6 +24,7 @@ public class TestBase {
 	public static Properties OR = new Properties();
 	public static FileInputStream fis;
 	public WebDriverWait wait;
+	public static Logger log = Logger.getLogger("devpinoyLogger: ");
 	
 	@BeforeSuite
 	public void setup() {
@@ -30,9 +32,11 @@ public class TestBase {
 			// loading configuration of environment
 			try {
 				fis = new FileInputStream("./src/test/resources/properties/config.properties");
-				
+				//testing logs
+				log.debug("Config file found");
 			}catch(Exception e) {
 				e.printStackTrace();
+				log.debug("Config file not found");
 			}
 			try {
 				config.load(fis);

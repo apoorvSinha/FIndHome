@@ -77,7 +77,7 @@ public class TestBase {
 		
 	}
 
-	public WebElement LocatorIdentifier(String locator){
+	public static WebElement LocatorIdentifier(String locator){
 		if(locator.contains("XPATH")){
 			return driver.findElement(By.xpath(OR.getProperty(locator)));
 		}else if(locator.contains("CSS")){
@@ -87,11 +87,7 @@ public class TestBase {
 	}
 	
 	public void click(String locator) {
-		if(locator.contains("XPATH")){
-			driver.findElement(By.xpath(OR.getProperty(locator))).click();
-		}else if(locator.contains("CSS")){
-			driver.findElement(By.cssSelector(OR.getProperty(locator))).click();
-		}
+		TestBase.LocatorIdentifier(locator).click();
 	}
 	
 	@AfterSuite

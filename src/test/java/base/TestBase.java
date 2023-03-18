@@ -4,6 +4,7 @@ package base;
 import java.io.FileInputStream;
 import java.time.Duration;
 import java.util.Properties;
+import base.LogHandler;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -24,7 +25,7 @@ public class TestBase {
 	public static Properties OR = new Properties();
 	public static FileInputStream fis;
 	public WebDriverWait wait;
-	public static Logger log = Logger.getLogger("devpinoyLogger: ");
+	public Logger log = LogHandler.log;
 	
 	@BeforeSuite
 	public void setup() {
@@ -89,6 +90,8 @@ public class TestBase {
 	public void click(String locator) {
 		TestBase.LocatorIdentifier(locator).click();
 	}
+	
+	
 	
 	@AfterSuite
 	public void TearDown() throws InterruptedException {

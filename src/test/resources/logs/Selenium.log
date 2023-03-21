@@ -1720,3 +1720,834 @@ cache-control: no-cache
 08:29:15,829 DEBUG DefaultChannelPool:302 - Adding Candidate expired Channel [id: 0x562c6555, L:/127.0.0.1:54922 ! R:localhost/127.0.0.1:54913] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
 08:29:15,829 DEBUG DefaultChannelPool:321 - Closing Idle Channel [id: 0x562c6555, L:/127.0.0.1:54922 ! R:localhost/127.0.0.1:54913]
 08:29:15,829 DEBUG DefaultChannelPool:374 - Closed 2 connections out of 2 in 2 ms
+11:17:16,225 DEBUG devpinoyLogger: :31 - Couldn't load the excel file with name and path specified java.io.FileNotFoundException: /Users/sinhapoo/git (Is a directory)
+11:17:16,229 DEBUG devpinoyLogger: :58 - Rows can't be negative
+11:17:48,775 DEBUG devpinoyLogger: :31 - Couldn't load the excel file with name and path specified java.io.FileNotFoundException: /Users/sinhapoo/git (Is a directory)
+11:17:48,778 DEBUG devpinoyLogger: :58 - Rows can't be negative
+11:18:33,188 DEBUG devpinoyLogger: :31 - Couldn't load the excel file with name and path specified java.io.FileNotFoundException: /Users/sinhapoo/git (Is a directory)
+11:18:33,192 DEBUG devpinoyLogger: :58 - Rows can't be negative
+11:20:04,510 DEBUG devpinoyLogger: :31 - Couldn't load the excel file with name and path specified java.io.FileNotFoundException: /Users/sinhapoo/git (Is a directory)
+11:20:24,127 DEBUG devpinoyLogger: :31 - Couldn't load the excel file with name and path specified java.io.FileNotFoundException: /Users/sinhapoo/git (Is a directory)
+11:20:24,135 DEBUG devpinoyLogger: :58 - Rows can't be negative
+11:35:08,163 DEBUG TestNG:82 - suiteXmlPath: "/Users/sinhapoo/git/FIndHome/src/test/resources/runners/testng.xml"
+11:36:15,968 DEBUG TestNG:82 - suiteXmlPath: "/Users/sinhapoo/git/FIndHome/src/test/resources/runners/testng.xml"
+19:24:51,587 DEBUG TestNG:82 - suiteXmlPath: "/Users/sinhapoo/git/FIndHome/src/test/resources/runners/testng.xml"
+19:25:20,368 DEBUG TestNG:82 - suiteXmlPath: "/Users/sinhapoo/git/FIndHome/src/test/resources/runners/testng.xml"
+19:27:16,981 DEBUG TestNG:82 - suiteXmlPath: "/Users/sinhapoo/git/FIndHome/src/test/resources/runners/testng.xml"
+19:28:05,769 DEBUG TestNG:82 - suiteXmlPath: "/Users/sinhapoo/git/FIndHome/src/test/resources/runners/testng.xml"
+19:29:29,942 DEBUG TestNG:82 - suiteXmlPath: "/Users/sinhapoo/git/FIndHome/src/test/resources/runners/testng.xml"
+19:30:45,361 DEBUG TestNG:82 - suiteXmlPath: "/Users/sinhapoo/git/FIndHome/src/test/resources/runners/testng.xml"
+19:32:41,243 DEBUG TestNG:82 - suiteXmlPath: "/Users/sinhapoo/git/FIndHome/src/test/resources/runners/testng.xml"
+19:34:01,920 DEBUG TestNG:82 - suiteXmlPath: "/Users/sinhapoo/git/FIndHome/src/test/resources/runners/testng.xml"
+19:35:31,911 DEBUG TestNG:82 - suiteXmlPath: "/Users/sinhapoo/git/FIndHome/src/test/resources/runners/testng.xml"
+19:36:31,361 DEBUG TestNG:82 - suiteXmlPath: "/Users/sinhapoo/git/FIndHome/src/test/resources/runners/testng.xml"
+19:36:31,737 DEBUG devpinoyLogger: :40 - Config file found
+19:36:32,307 DEBUG ResolutionCache:156 - Removing resolution edge=111 from cache (expired on Sat Mar 18 09:26:48 IST 2023)
+19:36:32,339 DEBUG InternalHttpClient:164 - ex-0000000001 preparing request execution
+19:36:32,349 DEBUG ProtocolExec:181 - ex-0000000001 target auth state: UNCHALLENGED
+19:36:32,349 DEBUG ProtocolExec:187 - ex-0000000001 proxy auth state: UNCHALLENGED
+19:36:32,349 DEBUG ConnectExec:123 - ex-0000000001 acquiring connection with route {s}->https://raw.githubusercontent.com:443
+19:36:32,350 DEBUG InternalHttpClient:101 - ex-0000000001 acquiring endpoint (3 MINUTES)
+19:36:32,352 DEBUG PoolingHttpClientConnectionManager:296 - ex-0000000001 endpoint lease request (3 MINUTES) [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+19:36:32,358 DEBUG PoolingHttpClientConnectionManager:318 - ex-0000000001 endpoint leased [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+19:36:32,364 DEBUG PoolingHttpClientConnectionManager:360 - ex-0000000001 acquired ep-0000000001
+19:36:32,364 DEBUG InternalHttpClient:116 - ex-0000000001 acquired endpoint ep-0000000001
+19:36:32,365 DEBUG ConnectExec:130 - ex-0000000001 opening connection {s}->https://raw.githubusercontent.com:443
+19:36:32,365 DEBUG InternalHttpClient:160 - ep-0000000001 connecting endpoint (null)
+19:36:32,368 DEBUG PoolingHttpClientConnectionManager:444 - ep-0000000001 connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
+19:36:32,369 DEBUG DefaultHttpClientConnectionOperator:138 - raw.githubusercontent.com resolving remote address
+19:36:32,406 DEBUG DefaultHttpClientConnectionOperator:144 - raw.githubusercontent.com resolved to [raw.githubusercontent.com/185.199.111.133, raw.githubusercontent.com/185.199.110.133, raw.githubusercontent.com/185.199.108.133, raw.githubusercontent.com/185.199.109.133, raw.githubusercontent.com/2606:50c0:8003:0:0:0:0:154, raw.githubusercontent.com/2606:50c0:8001:0:0:0:0:154, raw.githubusercontent.com/2606:50c0:8000:0:0:0:0:154, raw.githubusercontent.com/2606:50c0:8002:0:0:0:0:154]
+19:36:32,420 DEBUG DefaultHttpClientConnectionOperator:177 - raw.githubusercontent.com:443 connecting null->raw.githubusercontent.com/185.199.111.133:443 (30 SECONDS)
+19:36:32,420 DEBUG SSLConnectionSocketFactory:226 - Connecting socket to raw.githubusercontent.com/185.199.111.133:443 with timeout 30 SECONDS
+19:36:32,514 DEBUG SSLConnectionSocketFactory:299 - Enabled protocols: [TLSv1.3, TLSv1.2]
+19:36:32,515 DEBUG SSLConnectionSocketFactory:300 - Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+19:36:32,515 DEBUG SSLConnectionSocketFactory:301 - Starting handshake (null)
+19:36:32,605 DEBUG DefaultHttpClientConnectionOperator:198 - raw.githubusercontent.com:443 connection to raw.githubusercontent.com/185.199.111.133:443 failed (class java.net.SocketException); retrying connection to the next address
+19:36:32,606 DEBUG DefaultHttpClientConnectionOperator:177 - raw.githubusercontent.com:443 connecting null->raw.githubusercontent.com/185.199.110.133:443 (30 SECONDS)
+19:36:32,606 DEBUG SSLConnectionSocketFactory:226 - Connecting socket to raw.githubusercontent.com/185.199.110.133:443 with timeout 30 SECONDS
+19:36:32,660 DEBUG SSLConnectionSocketFactory:299 - Enabled protocols: [TLSv1.3, TLSv1.2]
+19:36:32,660 DEBUG SSLConnectionSocketFactory:300 - Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+19:36:32,660 DEBUG SSLConnectionSocketFactory:301 - Starting handshake (null)
+19:36:32,728 DEBUG DefaultHttpClientConnectionOperator:198 - raw.githubusercontent.com:443 connection to raw.githubusercontent.com/185.199.110.133:443 failed (class java.net.SocketException); retrying connection to the next address
+19:36:32,728 DEBUG DefaultHttpClientConnectionOperator:177 - raw.githubusercontent.com:443 connecting null->raw.githubusercontent.com/185.199.108.133:443 (30 SECONDS)
+19:36:32,728 DEBUG SSLConnectionSocketFactory:226 - Connecting socket to raw.githubusercontent.com/185.199.108.133:443 with timeout 30 SECONDS
+19:36:32,780 DEBUG SSLConnectionSocketFactory:299 - Enabled protocols: [TLSv1.3, TLSv1.2]
+19:36:32,781 DEBUG SSLConnectionSocketFactory:300 - Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+19:36:32,781 DEBUG SSLConnectionSocketFactory:301 - Starting handshake (null)
+19:36:32,840 DEBUG DefaultHttpClientConnectionOperator:198 - raw.githubusercontent.com:443 connection to raw.githubusercontent.com/185.199.108.133:443 failed (class java.net.SocketException); retrying connection to the next address
+19:36:32,841 DEBUG DefaultHttpClientConnectionOperator:177 - raw.githubusercontent.com:443 connecting null->raw.githubusercontent.com/185.199.109.133:443 (30 SECONDS)
+19:36:32,841 DEBUG SSLConnectionSocketFactory:226 - Connecting socket to raw.githubusercontent.com/185.199.109.133:443 with timeout 30 SECONDS
+19:36:32,889 DEBUG SSLConnectionSocketFactory:299 - Enabled protocols: [TLSv1.3, TLSv1.2]
+19:36:32,889 DEBUG SSLConnectionSocketFactory:300 - Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+19:36:32,890 DEBUG SSLConnectionSocketFactory:301 - Starting handshake (null)
+19:36:32,953 DEBUG DefaultHttpClientConnectionOperator:198 - raw.githubusercontent.com:443 connection to raw.githubusercontent.com/185.199.109.133:443 failed (class java.net.SocketException); retrying connection to the next address
+19:36:32,953 DEBUG DefaultHttpClientConnectionOperator:177 - raw.githubusercontent.com:443 connecting null->raw.githubusercontent.com/[2606:50c0:8003:0:0:0:0:154]:443 (30 SECONDS)
+19:36:32,954 DEBUG SSLConnectionSocketFactory:226 - Connecting socket to raw.githubusercontent.com/[2606:50c0:8003:0:0:0:0:154]:443 with timeout 30 SECONDS
+19:36:33,001 DEBUG SSLConnectionSocketFactory:299 - Enabled protocols: [TLSv1.3, TLSv1.2]
+19:36:33,001 DEBUG SSLConnectionSocketFactory:300 - Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+19:36:33,001 DEBUG SSLConnectionSocketFactory:301 - Starting handshake (null)
+19:36:33,124 DEBUG SSLConnectionSocketFactory:59 - Secure session established
+19:36:33,124 DEBUG SSLConnectionSocketFactory:60 -  negotiated protocol: TLSv1.3
+19:36:33,124 DEBUG SSLConnectionSocketFactory:61 -  negotiated cipher suite: TLS_AES_128_GCM_SHA256
+19:36:33,126 DEBUG SSLConnectionSocketFactory:71 -  peer principal: CN=*.github.io, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+19:36:33,126 DEBUG SSLConnectionSocketFactory:80 -  peer alternative names: [*.github.io, github.io, *.github.com, github.com, www.github.com, *.githubusercontent.com, githubusercontent.com]
+19:36:33,126 DEBUG SSLConnectionSocketFactory:84 -  issuer principal: CN=DigiCert TLS RSA SHA256 2020 CA1, O=DigiCert Inc, C=US
+19:36:33,127 DEBUG DefaultManagedHttpClientConnection:165 - http-outgoing-0 set socket timeout to 3 MINUTES
+19:36:33,128 DEBUG DefaultHttpClientConnectionOperator:185 - raw.githubusercontent.com:443 connected null->raw.githubusercontent.com/[2606:50c0:8003:0:0:0:0:154]:443 as http-outgoing-0
+19:36:33,128 DEBUG PoolingHttpClientConnectionManager:456 - ep-0000000001 connected http-outgoing-0
+19:36:33,128 DEBUG InternalHttpClient:164 - ep-0000000001 endpoint connected
+19:36:33,129 DEBUG MainClientExec:107 - ex-0000000001 executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+19:36:33,129 DEBUG RequestAddCookies:129 - ex-0000000001 Cookie spec selected: strict
+19:36:33,134 DEBUG InternalHttpClient:214 - ep-0000000001 start execution ex-0000000001
+19:36:33,134 DEBUG PoolingHttpClientConnectionManager:710 - ep-0000000001 executing exchange ex-0000000001 over http-outgoing-0
+19:36:33,135 DEBUG headers:200 - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+19:36:33,135 DEBUG headers:203 - http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
+19:36:33,135 DEBUG headers:203 - http-outgoing-0 >> accept-encoding: gzip, deflate, br
+19:36:33,135 DEBUG headers:203 - http-outgoing-0 >> cache-control: max-age=0
+19:36:33,135 DEBUG headers:203 - http-outgoing-0 >> connection: keep-alive
+19:36:33,135 DEBUG headers:203 - http-outgoing-0 >> Host: raw.githubusercontent.com
+19:36:33,135 DEBUG wire:92 - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
+19:36:33,135 DEBUG wire:92 - http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+19:36:33,135 DEBUG wire:92 - http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+19:36:33,135 DEBUG wire:92 - http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
+19:36:33,135 DEBUG wire:92 - http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+19:36:33,135 DEBUG wire:92 - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+19:36:33,135 DEBUG wire:92 - http-outgoing-0 >> "[\r][\n]"
+19:36:33,180 DEBUG wire:92 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+19:36:33,180 DEBUG wire:92 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+19:36:33,180 DEBUG wire:92 - http-outgoing-0 << "Content-Length: 723[\r][\n]"
+19:36:33,180 DEBUG wire:92 - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+19:36:33,181 DEBUG wire:92 - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+19:36:33,181 DEBUG wire:92 - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+19:36:33,181 DEBUG wire:92 - http-outgoing-0 << "ETag: W/"e82b438271e9e8680c688b0b680efd0bdd22faa6d6f0a32fc1fd8accc486b67e"[\r][\n]"
+19:36:33,181 DEBUG wire:92 - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+19:36:33,181 DEBUG wire:92 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+19:36:33,181 DEBUG wire:92 - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+19:36:33,181 DEBUG wire:92 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+19:36:33,181 DEBUG wire:92 - http-outgoing-0 << "X-GitHub-Request-Id: F6B6:72C3:165ED:20D27:64065B30[\r][\n]"
+19:36:33,181 DEBUG wire:92 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+19:36:33,181 DEBUG wire:92 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+19:36:33,182 DEBUG wire:92 - http-outgoing-0 << "Date: Sat, 18 Mar 2023 14:06:33 GMT[\r][\n]"
+19:36:33,182 DEBUG wire:92 - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+19:36:33,182 DEBUG wire:92 - http-outgoing-0 << "X-Served-By: cache-bom4743-BOM[\r][\n]"
+19:36:33,182 DEBUG wire:92 - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+19:36:33,182 DEBUG wire:92 - http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+19:36:33,182 DEBUG wire:92 - http-outgoing-0 << "X-Timer: S1679148394.854750,VS0,VE1[\r][\n]"
+19:36:33,183 DEBUG wire:92 - http-outgoing-0 << "Vary: Authorization,Accept-Encoding,Origin[\r][\n]"
+19:36:33,183 DEBUG wire:92 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+19:36:33,184 DEBUG wire:92 - http-outgoing-0 << "X-Fastly-Request-ID: 244e5529f9faabcf972ad4c49d81ece989731b93[\r][\n]"
+19:36:33,184 DEBUG wire:92 - http-outgoing-0 << "Expires: Sat, 18 Mar 2023 14:11:33 GMT[\r][\n]"
+19:36:33,184 DEBUG wire:92 - http-outgoing-0 << "Source-Age: 97[\r][\n]"
+19:36:33,184 DEBUG wire:92 - http-outgoing-0 << "[\r][\n]"
+19:36:33,188 DEBUG headers:189 - http-outgoing-0 << HTTP/1.1 200 OK
+19:36:33,188 DEBUG headers:192 - http-outgoing-0 << Connection: keep-alive
+19:36:33,188 DEBUG headers:192 - http-outgoing-0 << Content-Length: 723
+19:36:33,188 DEBUG headers:192 - http-outgoing-0 << Cache-Control: max-age=300
+19:36:33,189 DEBUG headers:192 - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+19:36:33,189 DEBUG headers:192 - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+19:36:33,189 DEBUG headers:192 - http-outgoing-0 << ETag: W/"e82b438271e9e8680c688b0b680efd0bdd22faa6d6f0a32fc1fd8accc486b67e"
+19:36:33,189 DEBUG headers:192 - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+19:36:33,189 DEBUG headers:192 - http-outgoing-0 << X-Content-Type-Options: nosniff
+19:36:33,189 DEBUG headers:192 - http-outgoing-0 << X-Frame-Options: deny
+19:36:33,189 DEBUG headers:192 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+19:36:33,189 DEBUG headers:192 - http-outgoing-0 << X-GitHub-Request-Id: F6B6:72C3:165ED:20D27:64065B30
+19:36:33,189 DEBUG headers:192 - http-outgoing-0 << Content-Encoding: gzip
+19:36:33,191 DEBUG headers:192 - http-outgoing-0 << Accept-Ranges: bytes
+19:36:33,191 DEBUG headers:192 - http-outgoing-0 << Date: Sat, 18 Mar 2023 14:06:33 GMT
+19:36:33,192 DEBUG headers:192 - http-outgoing-0 << Via: 1.1 varnish
+19:36:33,192 DEBUG headers:192 - http-outgoing-0 << X-Served-By: cache-bom4743-BOM
+19:36:33,192 DEBUG headers:192 - http-outgoing-0 << X-Cache: HIT
+19:36:33,192 DEBUG headers:192 - http-outgoing-0 << X-Cache-Hits: 1
+19:36:33,192 DEBUG headers:192 - http-outgoing-0 << X-Timer: S1679148394.854750,VS0,VE1
+19:36:33,192 DEBUG headers:192 - http-outgoing-0 << Vary: Authorization,Accept-Encoding,Origin
+19:36:33,192 DEBUG headers:192 - http-outgoing-0 << Access-Control-Allow-Origin: *
+19:36:33,192 DEBUG headers:192 - http-outgoing-0 << X-Fastly-Request-ID: 244e5529f9faabcf972ad4c49d81ece989731b93
+19:36:33,192 DEBUG headers:192 - http-outgoing-0 << Expires: Sat, 18 Mar 2023 14:11:33 GMT
+19:36:33,192 DEBUG headers:192 - http-outgoing-0 << Source-Age: 97
+19:36:33,194 DEBUG MainClientExec:138 - ex-0000000001 connection can be kept alive for 3 MINUTES
+19:36:33,207 DEBUG wire:92 - http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]V]o[0xffffffda]0[0x14]}[0xffffffe7]W\[0xffffff81]*[0xffffffb5][0x12][0x1f][[M[0xffffffd3]$[0x1e]hF[0xffffffbb]i [0x18][0xffffffb4][0xffffffdd]&[0xfffffff9][0xffffffc5]$7[0xffffffc1]R[0x12]#;[0xffffff94]v[0xffffffbf]~[0xffffffb6][0xfffffff3]1[0xffffff92][0xffffff9a][0xffffffc1][0x1a]x[0xffffffcb][0xffffffb5][0xffffffaf][0xffffffcf]9[0xffffffbe][0xfffffff7]8v[0xb][0x1c][0x1e]E4[0xfffffff6]$x4[0xffffffa1][0xb]*[0xffffffb1][0xffffffd1][0xffffff82][0xfffffffb]%[0xffffff93][0xffffffe0][0xffffffb3][0x10][0xffffffc1][0xffffffe5]qBY,!Y[0xffffffea] KM8,[0x10][0xfffffff0][0x19][0xffffffdd]u[0xffffff82][0x1e][0xffffffb0][0xffffffd8]L[0xffffffcb]%[0xffffff86][0xffffffa1][0xe][0xffffffb8][0xfffffff0]P[0xffffffe8]$[0xf][0x13]t[0x13]3[0xfffffff9][0xffffff84]B2[0xffffffae][0xffffffe6]|@[0xfffffff5][0x1d][0x8][0xffffffc4][0x18][0x16][0xffffff82]o[0xffffffa4][0xffffff9a]P[0xffffff94][0xffffffe7][0xffffffce]R[0xfffffff0][0x8][0xffffffdb]p[0xffffffcb][0x4][0xfffffffa][0xfffffffc][0xffffffb9][\r][0xffffff93][0x15][\n]"
+19:36:33,208 DEBUG wire:92 - http-outgoing-0 << "[0xffffffda][0xffffff86][0xffffffa1][0x17][0xffffffa8]Q3[0xffffffcb][0xffffffd6][0xffffffd1][0xffffff85][0xffffffc6][0xfffffff7][0xffffff98][0xffffffef][0xffffffa3][0xffffffc0]8[0x1][0xffffffae]s[0x12][0x16][0x7] _d[0xffffff82][0xffffff91][0xffffff84][0xfffffff3][0x1f],[0xfffffff6][0x14]j[0x1b]F,^+[0xffffff98]1ua2[0xffffffbf]h([0xffffff8e][0xffffff94][0xffffffa2][0xffffff91]m[0xffffffa3][0xffffffeb][0xffffff9a][0xffffffb0][0xffffffbb]I[0x17]t[0xffffffdf][0xffffffbd][0xffffffef][0xffffffbb][0xffffff91][0xffffffd7]U[0xffffffbb][0xffffff82][0xffffff9e][0x3][0xffffff9b][0xffffff88][0xffffffb9][0xffffffa6]$[0xffffffa6][0xc][0xffffff9b][0xffffffa5][0xffffffe2][0xffffff83][0xffffff98]F[0xffffffd8]o[0xffffff9e]Mg[0xffffff93][0xffffffbb][0xffffffd9]`|[0xfffffffb]u4[0xffffff9c][0x7f]"}B[0xffffffce][0x8][0xffffffb9][0xffffffe3]<[0x8][0xffffff91][0xffffff90][0xffffff94][0xffffff82][0xffffff90][0xffffffc1]j[0x15]2WI[0xffffffe3]1![0x19][0xffffff91]BnB[0xffffff80][0x9]<f[0xffffffb5][0xffffffe8]=[0xffffffd1]p[0xffffffbd][[0xffffffcf][0xffffffe5][0x1b][0xfffffff4][0xffffff9c][0xffffffff][0xfffffffc][0xfffffff8][0xffffffe1][0xffffffe2][0xffffff94][0xffffffa2][0xffffffae][0xe][0x14]5[0xffffff9a]8[0xffffff83][0xffffffd1]`:[0xfffffffd]<[0xffffffb8][0x1f][0xffffff9c]R[0xffffffcf]u[0x7f]6[0xffffffbc][0xffffff83][0xffffffef][0xf][0xffffffc3][0xffffffd9]/[0xfffffff8][0xfffffff2][0xffffffcd]y s[0xffffffee]'[0x1b]*0g[0xffffffcb][0xffffffc8]nF7H][0xffffff83][0xffffff97]{[0xffffffb1]Q[0x5][\r][0xffffffb5]c[0xffffffb4][0xf][0x2][0xffffffb3][0xffffffb4][0xffffff93][0xe]C[0xffffffa7][0xffffffb3]kAD][0xffffff9d][0xffffffde][0xffffffdb][0xffffffda][0xffffff88][0xffffffec][0xffffffa5][0xffffffbc][0xffffff99][0xffffffd9][0xffffffba]t[0xffffffb5][0xffffffea]9[0xffffffea][0x10])[0xffffffb7][0xffffffca][0xffffff9e][0xfffffff2][0xffffffe2]d^N[0xffffffd8]FW[0x16][0xffffffcd][0xffffffdc]_[0x10][0xfffffff9]i|[0x1c][0xffffff93][0xffffff8e][0xfffffff9]o[0x16][0xffffff86]4'!$G[0xffffffdf]W[0xfffffff4]W*j[[0xfffffff3]xR[0xffffffae][0xffffffb6][0xc][0xffffffd0],; #[0xffffffa9][0xffffff92]5[0xffffffb5][0x7][0xffffff9c][0xffffffb5][0xffffffd0][0x7f][0xffffff90][0xffffffc7]jgs[0xfffffffc][0xffffffc2][0xb][0xffffffd9][0x0]t[0xffffff9e]^'Y[0xfffffffb][0xffffff9f][0xffffffb1][0xffffffd8]:[0xffffffbf][0xffffff8d][0xffffffa5][0xffffff9a][0xffffffad][0x7f]m[0x5]&[0xffffffaa][0xffffffa0]^[0xffffff9b][0xffffffcb][0x5]f[0xffffffae][0xffffffe0]RU[0xffffff82][0x10]MS9l[0xffffff91]4t[0xfffffffb][0xffffff8a]][0xffffffd6][0xfffffff4][0xffffff96][0xffffffa6][0xffffff9f]P[0xffffffce][0xffffffd5][0xffffffce][0xffffff93][0xffffffff][0xffffff97][0xffffffcc]p[0xfffffffd][0xfffffff3][0xffffffe8][0x1b][0xffffffcc][0xffffffa2][0xffffffd9]Q[0xffffffbe][0xffffffb2][0xffffffa3][0xffffffc7]m'[0xffffffdf][0xffffffe4][[0xfffffffb]^[0xffffffb0][0xffffff9a][0xffffffbe][0xffffffda][0xffffffda]_[0xffffffce][0xffffff80][0xffffffd2][0xffffffc1]7[0xffffffb7]][0xffffffc1]b[0xffffffee][0xffffffb5][0xffffffff]w[0xffffff83][0xffffffed][0xffffffa7];[0x15]<[0x10]4[0xffffff92][0xffffff84][0x18][\n]"
+19:36:33,209 DEBUG wire:92 - http-outgoing-0 << "BB[0xffffffba][0xffffff8e]][0xffffffb5]jo[0xffffffb9]+"[0xffffffea][0xffffffb4][0xffffffff]h"[0xffffffea]\?5[0xffffffa9][0xffffffaf]k[0xffffffec][0xffffffff]P[0xffffffea][\n]"
+19:36:33,209 DEBUG wire:106 - http-outgoing-0 << "w[0xffffffe1]K[0x13][0xffffffda][0xffffffec][0xffffff98][0xffffffe6]Y[0xfffffffd]h8m6[0xffffff9c]T[0xffffffc1][0xfffffff2][0xffffffa7][0xffffff91]z_[0xffffff95]o85p[0x1c][0x13][0xffffffe6][0xfffffff0]5[0xffffffee][0xfffffffc][0xffffff92][0xffffff96][0xffffffda][0xfffffff7][0xffffffcf][0xffffffb1][0x5][0x1d][0xffffffea]K[0xffffff9b]9[0xffffff8e][0xffffffad]e[0xfffffff7][0xffffff93][0xffffffa8]`[0xffffffda][0xffffffff][0x1a][0xffffffd2][0xffffff88][0xffffff85][0xfffffffd][0xfffffff2][0xffffff91]N[0xfffffff6]`[0xffffffdf]2[0xffffffcf][0xffffffae]E[0xffffff97][0xffffffc5][0xffffffa2][0xffffff9d][0xffffffef]'[0xffffff9d]mun.[0xffffffd3]f^[0xffffffc7][0xffffff82][0xffffffda][0xffffff82]9[0xfffffff5][0xffffffa9]`[0x5][0xffffffbc]4[0xffffffa1][0x1d]<M[0xffffffb5]A[0xffffffa7]3[[0xffffffc0][0x7f][0x0][0xffffffc1][0xffffffd0]$[0xffffff85][0x1d][\r][0x0][0x0]"
+19:36:33,212 DEBUG InternalHttpClient:256 - ep-0000000001 releasing valid endpoint
+19:36:33,212 DEBUG PoolingHttpClientConnectionManager:389 - ep-0000000001 releasing endpoint
+19:36:33,213 DEBUG PoolingHttpClientConnectionManager:408 - ep-0000000001 connection http-outgoing-0 can be kept alive for 3 MINUTES
+19:36:33,213 DEBUG PoolingHttpClientConnectionManager:421 - ep-0000000001 connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+19:36:33,214 DEBUG VersionDetector:205 - Detecting edge version using online commands.properties
+19:36:33,220 DEBUG Shell:65 - Running command on the shell: [/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge, -version]
+19:36:33,364 DEBUG Shell:69 - Result: Microsoft Edge 111.0.1661.44
+19:36:33,373 DEBUG ResolutionCache:186 - Resolution edge111=111.0.1661.44 in cache (valid until 08:26:48 19/03/2023 IST)
+19:36:33,373  INFO WebDriverManager:1238 - Using msedgedriver 111.0.1661.44 (resolved driver for Edge 111)
+19:36:33,375 DEBUG ResolutionCache:119 - Storing resolution edge=111 in cache (valid until 20:36:33 18/03/2023 IST)
+19:36:33,386 DEBUG WebDriverManager:1193 - Driver msedgedriver 111.0.1661.44 found in cache
+19:36:33,386  INFO WebDriverManager:1291 - Exporting webdriver.edge.driver as /Users/sinhapoo/.cache/selenium/msedgedriver/mac64/111.0.1661.44/msedgedriver
+19:36:33,468 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+19:36:33,470 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+19:36:33,471 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+19:36:33,473 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2de366bb
+19:36:33,484 DEBUG PlatformDependent0:496 - -Dio.netty.noUnsafe: false
+19:36:33,484 DEBUG PlatformDependent0:1000 - Java version: 17
+19:36:33,485 DEBUG PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+19:36:33,486 DEBUG PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+19:36:33,486 DEBUG PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+19:36:33,486 DEBUG PlatformDependent0:236 - java.nio.Buffer.address: available
+19:36:33,487 DEBUG PlatformDependent0:320 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+19:36:33,487 DEBUG PlatformDependent0:385 - java.nio.Bits.unaligned: available, true
+19:36:33,488 DEBUG PlatformDependent0:452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2013a92c
+19:36:33,490 DEBUG PlatformDependent0:482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+19:36:33,491 DEBUG PlatformDependent:1159 - sun.misc.Unsafe: available
+19:36:33,501 DEBUG PlatformDependent:1270 - maxDirectMemory: 8589934592 bytes (maybe)
+19:36:33,502 DEBUG PlatformDependent:1289 - -Dio.netty.tmpdir: /var/folders/wk/_7tty6_54h924md406717jkc0000gr/T (java.io.tmpdir)
+19:36:33,503 DEBUG PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+19:36:33,504 DEBUG PlatformDependent:1127 - Platform: MacOS
+19:36:33,505 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+19:36:33,506 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+19:36:33,506 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+19:36:33,507 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+19:36:33,511 DEBUG PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+19:36:33,527 DEBUG InternalThreadLocalMap:100 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+19:36:33,527 DEBUG InternalThreadLocalMap:101 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+19:36:33,536 DEBUG JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+19:36:33,536 DEBUG JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+19:36:33,553 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 20
+19:36:33,563 DEBUG NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+19:36:33,563 DEBUG NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+19:36:33,581 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 20
+19:36:33,581 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 20
+19:36:33,581 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+19:36:33,581 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+19:36:33,582 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+19:36:33,582 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+19:36:33,582 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+19:36:33,582 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+19:36:33,582 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+19:36:33,582 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+19:36:33,582 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+19:36:33,582 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+19:36:33,590 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+19:36:33,590 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+19:36:33,590 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+19:36:34,588 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 22881 (auto-detected)
+19:36:34,591 DEBUG NetUtil:142 - -Djava.net.preferIPv4Stack: false
+19:36:34,591 DEBUG NetUtil:143 - -Djava.net.preferIPv6Addresses: false
+19:36:34,596 DEBUG NetUtilInitializations:139 - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+19:36:34,597 DEBUG NetUtil:200 - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+19:36:34,601 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: bc:d0:74:ff:fe:64:42:bd (auto-detected)
+19:36:34,645 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+19:36:34,646 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+19:36:34,646 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1b830458
+19:36:34,664 DEBUG NettyConnectListener:73 - Using new Channel '[id: 0x9dcf770e, L:/127.0.0.1:57280 - R:localhost/127.0.0.1:11757]' for 'POST' to '/session'
+19:36:34,668 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+19:36:34,668 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+19:36:34,669 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+19:36:34,669 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+19:36:40,521 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+19:36:40,523 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.8.1 (java mac)
+Content-Length: 371
+Content-Type: application/json; charset=utf-8
+host: localhost:11757
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 838
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+19:36:40,527 DEBUG ChannelManager:270 - Adding key: http://localhost:11757 for channel [id: 0x9dcf770e, L:/127.0.0.1:57280 - R:localhost/127.0.0.1:11757]
+19:36:40,601 DEBUG NettyConnectListener:73 - Using new Channel '[id: 0xac0dcaf1, L:/127.0.0.1:57301 - R:localhost/127.0.0.1:57293]' for 'GET' to '/json/version'
+19:36:40,605 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.8.1 (java mac)
+host: localhost:57293
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Security-Policy: frame-ancestors 'none'
+Content-Length: 434
+Content-Type: application/json; charset=UTF-8
+
+19:36:40,606 DEBUG ChannelManager:270 - Adding key: http://localhost:57293 for channel [id: 0xac0dcaf1, L:/127.0.0.1:57301 - R:localhost/127.0.0.1:57293]
+19:36:40,617 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x53ea456935498cd7
+19:36:40,624 DEBUG NettyConnectListener:73 - Using new Channel '[id: 0x88882218, L:/127.0.0.1:57302 - R:localhost/127.0.0.1:57293]' for 'GET' to '/devtools/browser/1e71b8a3-8918-4050-810b-58e318d85040'
+19:36:40,628 DEBUG WebSocketHandler:105 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/1e71b8a3-8918-4050-810b-58e318d85040 HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: 3jeAXFzKs4lFOvk/WSXP3w==
+sec-websocket-version: 13
+origin: http://localhost:57293
+host: localhost:57293
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: Bw6Swu6d20JheEQRYgrHlN+B0zY=
+
+19:36:40,679 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x9dcf770e, L:/127.0.0.1:57280 - R:localhost/127.0.0.1:11757]' for 'POST' to 'http://localhost:11757/session/613c8a270623222fbff1fbc741877627/url'
+19:36:40,679 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x9dcf770e, L:/127.0.0.1:57280 - R:localhost/127.0.0.1:11757] for POST '/session/613c8a270623222fbff1fbc741877627/url'
+19:36:41,221 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:42,321 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:43,420 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:44,520 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:45,618 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:46,720 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:47,815 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:48,918 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:50,020 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:51,120 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:52,220 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:52,451 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/613c8a270623222fbff1fbc741877627/url HTTP/1.1
+User-Agent: selenium/4.8.1 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11757
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+19:36:52,451 DEBUG ChannelManager:270 - Adding key: http://localhost:11757 for channel [id: 0x9dcf770e, L:/127.0.0.1:57280 - R:localhost/127.0.0.1:11757]
+19:36:52,458 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x9dcf770e, L:/127.0.0.1:57280 - R:localhost/127.0.0.1:11757]' for 'POST' to 'http://localhost:11757/session/613c8a270623222fbff1fbc741877627/window/maximize'
+19:36:52,458 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x9dcf770e, L:/127.0.0.1:57280 - R:localhost/127.0.0.1:11757] for POST '/session/613c8a270623222fbff1fbc741877627/window/maximize'
+19:36:53,317 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:53,645 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/613c8a270623222fbff1fbc741877627/window/maximize HTTP/1.1
+User-Agent: selenium/4.8.1 (java mac)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:11757
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 51
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+19:36:53,645 DEBUG ChannelManager:270 - Adding key: http://localhost:11757 for channel [id: 0x9dcf770e, L:/127.0.0.1:57280 - R:localhost/127.0.0.1:11757]
+19:36:53,649 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x9dcf770e, L:/127.0.0.1:57280 - R:localhost/127.0.0.1:11757]' for 'POST' to 'http://localhost:11757/session/613c8a270623222fbff1fbc741877627/timeouts'
+19:36:53,650 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x9dcf770e, L:/127.0.0.1:57280 - R:localhost/127.0.0.1:11757] for POST '/session/613c8a270623222fbff1fbc741877627/timeouts'
+19:36:53,652 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/613c8a270623222fbff1fbc741877627/timeouts HTTP/1.1
+User-Agent: selenium/4.8.1 (java mac)
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+host: localhost:11757
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+19:36:53,652 DEBUG ChannelManager:270 - Adding key: http://localhost:11757 for channel [id: 0x9dcf770e, L:/127.0.0.1:57280 - R:localhost/127.0.0.1:11757]
+19:36:54,420 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:54,420 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:11757 : 1
+19:36:55,520 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:55,520 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:11757 : 1
+19:36:56,620 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:56,620 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:11757 : 1
+19:36:57,720 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:57,720 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:11757 : 1
+19:36:58,719 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x9dcf770e, L:/127.0.0.1:57280 - R:localhost/127.0.0.1:11757]' for 'DELETE' to 'http://localhost:11757/session/613c8a270623222fbff1fbc741877627'
+19:36:58,720 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x9dcf770e, L:/127.0.0.1:57280 - R:localhost/127.0.0.1:11757] for DELETE '/session/613c8a270623222fbff1fbc741877627'
+19:36:58,720 DEBUG WebSocketHandler:126 - Channel Closed: [id: 0x88882218, L:/127.0.0.1:57302 ! R:localhost/127.0.0.1:57293] with attribute NettyResponseFuture{currentRetry=0,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@6f527b7d,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@1115e17,
+	future=java.util.concurrent.CompletableFuture@7e2f38ce[Completed normally],
+	uri=ws://localhost:57293/devtools/browser/1e71b8a3-8918-4050-810b-58e318d85040,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1679148400636}
+19:36:58,721 DEBUG ChannelManager:315 - Closing Channel [id: 0x88882218, L:/127.0.0.1:57302 ! R:localhost/127.0.0.1:57293] 
+19:36:58,736 DEBUG HttpHandler:126 - Channel Closed: [id: 0xac0dcaf1, L:/127.0.0.1:57301 ! R:localhost/127.0.0.1:57293] with attribute DISCARD
+19:36:58,775 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/613c8a270623222fbff1fbc741877627 HTTP/1.1
+User-Agent: selenium/4.8.1 (java mac)
+Content-Type: application/json; charset=utf-8
+host: localhost:11757
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+19:36:58,775 DEBUG ChannelManager:270 - Adding key: http://localhost:11757 for channel [id: 0x9dcf770e, L:/127.0.0.1:57280 - R:localhost/127.0.0.1:11757]
+19:36:58,817 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:57293 : 1
+19:36:58,820 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:11757 : 1
+19:36:58,820 DEBUG DefaultChannelPool:302 - Adding Candidate expired Channel [id: 0xac0dcaf1, L:/127.0.0.1:57301 ! R:localhost/127.0.0.1:57293] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+19:36:58,821 DEBUG DefaultChannelPool:321 - Closing Idle Channel [id: 0xac0dcaf1, L:/127.0.0.1:57301 ! R:localhost/127.0.0.1:57293]
+19:36:58,821 DEBUG DefaultChannelPool:374 - Closed 1 connections out of 2 in 1 ms
+19:36:58,824 DEBUG HttpHandler:126 - Channel Closed: [id: 0x9dcf770e, L:/127.0.0.1:57280 ! R:localhost/127.0.0.1:11757] with attribute DISCARD
+13:42:26,771 DEBUG TestNG:82 - suiteXmlPath: "/Users/sinhapoo/git/FIndHome/src/test/resources/runners/testng.xml"
+13:42:27,187 DEBUG devpinoyLogger: :40 - Config file found
+13:42:27,827 DEBUG ResolutionCache:156 - Removing resolution edge=111 from cache (expired on Sat Mar 18 20:36:33 IST 2023)
+13:42:27,910 DEBUG InternalHttpClient:164 - ex-0000000001 preparing request execution
+13:42:27,923 DEBUG ProtocolExec:181 - ex-0000000001 target auth state: UNCHALLENGED
+13:42:27,925 DEBUG ProtocolExec:187 - ex-0000000001 proxy auth state: UNCHALLENGED
+13:42:27,926 DEBUG ConnectExec:123 - ex-0000000001 acquiring connection with route {s}->https://raw.githubusercontent.com:443
+13:42:27,929 DEBUG InternalHttpClient:101 - ex-0000000001 acquiring endpoint (3 MINUTES)
+13:42:27,934 DEBUG PoolingHttpClientConnectionManager:296 - ex-0000000001 endpoint lease request (3 MINUTES) [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+13:42:27,961 DEBUG PoolingHttpClientConnectionManager:318 - ex-0000000001 endpoint leased [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+13:42:27,970 DEBUG PoolingHttpClientConnectionManager:360 - ex-0000000001 acquired ep-0000000001
+13:42:27,971 DEBUG InternalHttpClient:116 - ex-0000000001 acquired endpoint ep-0000000001
+13:42:27,971 DEBUG ConnectExec:130 - ex-0000000001 opening connection {s}->https://raw.githubusercontent.com:443
+13:42:27,976 DEBUG InternalHttpClient:160 - ep-0000000001 connecting endpoint (null)
+13:42:27,986 DEBUG PoolingHttpClientConnectionManager:444 - ep-0000000001 connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
+13:42:27,986 DEBUG DefaultHttpClientConnectionOperator:138 - raw.githubusercontent.com resolving remote address
+13:42:28,351 DEBUG DefaultHttpClientConnectionOperator:144 - raw.githubusercontent.com resolved to [raw.githubusercontent.com/185.199.111.133, raw.githubusercontent.com/185.199.108.133, raw.githubusercontent.com/185.199.110.133, raw.githubusercontent.com/185.199.109.133, raw.githubusercontent.com/2606:50c0:8001:0:0:0:0:154, raw.githubusercontent.com/2606:50c0:8003:0:0:0:0:154, raw.githubusercontent.com/2606:50c0:8000:0:0:0:0:154, raw.githubusercontent.com/2606:50c0:8002:0:0:0:0:154]
+13:42:28,376 DEBUG DefaultHttpClientConnectionOperator:177 - raw.githubusercontent.com:443 connecting null->raw.githubusercontent.com/185.199.111.133:443 (30 SECONDS)
+13:42:28,377 DEBUG SSLConnectionSocketFactory:226 - Connecting socket to raw.githubusercontent.com/185.199.111.133:443 with timeout 30 SECONDS
+13:42:28,556 DEBUG SSLConnectionSocketFactory:299 - Enabled protocols: [TLSv1.3, TLSv1.2]
+13:42:28,557 DEBUG SSLConnectionSocketFactory:300 - Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+13:42:28,557 DEBUG SSLConnectionSocketFactory:301 - Starting handshake (null)
+13:42:28,732 DEBUG SSLConnectionSocketFactory:59 - Secure session established
+13:42:28,733 DEBUG SSLConnectionSocketFactory:60 -  negotiated protocol: TLSv1.3
+13:42:28,733 DEBUG SSLConnectionSocketFactory:61 -  negotiated cipher suite: TLS_AES_128_GCM_SHA256
+13:42:28,735 DEBUG SSLConnectionSocketFactory:71 -  peer principal: CN=*.github.io, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+13:42:28,735 DEBUG SSLConnectionSocketFactory:80 -  peer alternative names: [*.github.io, github.io, *.github.com, github.com, www.github.com, *.githubusercontent.com, githubusercontent.com]
+13:42:28,735 DEBUG SSLConnectionSocketFactory:84 -  issuer principal: CN=DigiCert TLS RSA SHA256 2020 CA1, O=DigiCert Inc, C=US
+13:42:28,736 DEBUG DefaultManagedHttpClientConnection:165 - http-outgoing-0 set socket timeout to 3 MINUTES
+13:42:28,736 DEBUG DefaultHttpClientConnectionOperator:185 - raw.githubusercontent.com:443 connected null->raw.githubusercontent.com/185.199.111.133:443 as http-outgoing-0
+13:42:28,736 DEBUG PoolingHttpClientConnectionManager:456 - ep-0000000001 connected http-outgoing-0
+13:42:28,736 DEBUG InternalHttpClient:164 - ep-0000000001 endpoint connected
+13:42:28,737 DEBUG MainClientExec:107 - ex-0000000001 executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+13:42:28,737 DEBUG RequestAddCookies:129 - ex-0000000001 Cookie spec selected: strict
+13:42:28,741 DEBUG InternalHttpClient:214 - ep-0000000001 start execution ex-0000000001
+13:42:28,741 DEBUG PoolingHttpClientConnectionManager:710 - ep-0000000001 executing exchange ex-0000000001 over http-outgoing-0
+13:42:28,741 DEBUG headers:200 - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+13:42:28,741 DEBUG headers:203 - http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
+13:42:28,741 DEBUG headers:203 - http-outgoing-0 >> accept-encoding: gzip, deflate, br
+13:42:28,741 DEBUG headers:203 - http-outgoing-0 >> cache-control: max-age=0
+13:42:28,741 DEBUG headers:203 - http-outgoing-0 >> connection: keep-alive
+13:42:28,741 DEBUG headers:203 - http-outgoing-0 >> Host: raw.githubusercontent.com
+13:42:28,742 DEBUG wire:92 - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
+13:42:28,742 DEBUG wire:92 - http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+13:42:28,742 DEBUG wire:92 - http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+13:42:28,742 DEBUG wire:92 - http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
+13:42:28,742 DEBUG wire:92 - http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+13:42:28,742 DEBUG wire:92 - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+13:42:28,742 DEBUG wire:92 - http-outgoing-0 >> "[\r][\n]"
+13:42:28,829 DEBUG wire:92 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+13:42:28,829 DEBUG wire:92 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+13:42:28,829 DEBUG wire:92 - http-outgoing-0 << "Content-Length: 723[\r][\n]"
+13:42:28,829 DEBUG wire:92 - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+13:42:28,829 DEBUG wire:92 - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+13:42:28,830 DEBUG wire:92 - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+13:42:28,830 DEBUG wire:92 - http-outgoing-0 << "ETag: W/"e82b438271e9e8680c688b0b680efd0bdd22faa6d6f0a32fc1fd8accc486b67e"[\r][\n]"
+13:42:28,830 DEBUG wire:92 - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+13:42:28,830 DEBUG wire:92 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+13:42:28,830 DEBUG wire:92 - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+13:42:28,830 DEBUG wire:92 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+13:42:28,830 DEBUG wire:92 - http-outgoing-0 << "X-GitHub-Request-Id: F6B6:72C3:165ED:20D27:64065B30[\r][\n]"
+13:42:28,830 DEBUG wire:92 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+13:42:28,831 DEBUG wire:92 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+13:42:28,832 DEBUG wire:92 - http-outgoing-0 << "Date: Tue, 21 Mar 2023 08:12:28 GMT[\r][\n]"
+13:42:28,832 DEBUG wire:92 - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+13:42:28,832 DEBUG wire:92 - http-outgoing-0 << "X-Served-By: cache-bom4721-BOM[\r][\n]"
+13:42:28,832 DEBUG wire:92 - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+13:42:28,832 DEBUG wire:92 - http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+13:42:28,832 DEBUG wire:92 - http-outgoing-0 << "X-Timer: S1679386349.923918,VS0,VE1[\r][\n]"
+13:42:28,832 DEBUG wire:92 - http-outgoing-0 << "Vary: Authorization,Accept-Encoding,Origin[\r][\n]"
+13:42:28,832 DEBUG wire:92 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+13:42:28,833 DEBUG wire:92 - http-outgoing-0 << "X-Fastly-Request-ID: 69c9cd14a080e88df8962da0bbc45828dfdcb355[\r][\n]"
+13:42:28,833 DEBUG wire:92 - http-outgoing-0 << "Expires: Tue, 21 Mar 2023 08:17:28 GMT[\r][\n]"
+13:42:28,833 DEBUG wire:92 - http-outgoing-0 << "Source-Age: 60[\r][\n]"
+13:42:28,833 DEBUG wire:92 - http-outgoing-0 << "[\r][\n]"
+13:42:28,836 DEBUG headers:189 - http-outgoing-0 << HTTP/1.1 200 OK
+13:42:28,836 DEBUG headers:192 - http-outgoing-0 << Connection: keep-alive
+13:42:28,836 DEBUG headers:192 - http-outgoing-0 << Content-Length: 723
+13:42:28,836 DEBUG headers:192 - http-outgoing-0 << Cache-Control: max-age=300
+13:42:28,836 DEBUG headers:192 - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+13:42:28,836 DEBUG headers:192 - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+13:42:28,836 DEBUG headers:192 - http-outgoing-0 << ETag: W/"e82b438271e9e8680c688b0b680efd0bdd22faa6d6f0a32fc1fd8accc486b67e"
+13:42:28,836 DEBUG headers:192 - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+13:42:28,837 DEBUG headers:192 - http-outgoing-0 << X-Content-Type-Options: nosniff
+13:42:28,837 DEBUG headers:192 - http-outgoing-0 << X-Frame-Options: deny
+13:42:28,837 DEBUG headers:192 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+13:42:28,837 DEBUG headers:192 - http-outgoing-0 << X-GitHub-Request-Id: F6B6:72C3:165ED:20D27:64065B30
+13:42:28,837 DEBUG headers:192 - http-outgoing-0 << Content-Encoding: gzip
+13:42:28,837 DEBUG headers:192 - http-outgoing-0 << Accept-Ranges: bytes
+13:42:28,837 DEBUG headers:192 - http-outgoing-0 << Date: Tue, 21 Mar 2023 08:12:28 GMT
+13:42:28,837 DEBUG headers:192 - http-outgoing-0 << Via: 1.1 varnish
+13:42:28,837 DEBUG headers:192 - http-outgoing-0 << X-Served-By: cache-bom4721-BOM
+13:42:28,838 DEBUG headers:192 - http-outgoing-0 << X-Cache: HIT
+13:42:28,838 DEBUG headers:192 - http-outgoing-0 << X-Cache-Hits: 1
+13:42:28,838 DEBUG headers:192 - http-outgoing-0 << X-Timer: S1679386349.923918,VS0,VE1
+13:42:28,839 DEBUG headers:192 - http-outgoing-0 << Vary: Authorization,Accept-Encoding,Origin
+13:42:28,839 DEBUG headers:192 - http-outgoing-0 << Access-Control-Allow-Origin: *
+13:42:28,839 DEBUG headers:192 - http-outgoing-0 << X-Fastly-Request-ID: 69c9cd14a080e88df8962da0bbc45828dfdcb355
+13:42:28,839 DEBUG headers:192 - http-outgoing-0 << Expires: Tue, 21 Mar 2023 08:17:28 GMT
+13:42:28,840 DEBUG headers:192 - http-outgoing-0 << Source-Age: 60
+13:42:28,843 DEBUG MainClientExec:138 - ex-0000000001 connection can be kept alive for 3 MINUTES
+13:42:28,853 DEBUG wire:92 - http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]V]o[0xffffffda]0[0x14]}[0xffffffe7]W\[0xffffff81]*[0xffffffb5][0x12][0x1f][[M[0xffffffd3]$[0x1e]hF[0xffffffbb]i [0x18][0xffffffb4][0xffffffdd]&[0xfffffff9][0xffffffc5]$7[0xffffffc1]R[0x12]#;[0xffffff94]v[0xffffffbf]~[0xffffffb6][0xfffffff3]1[0xffffff92][0xffffff9a][0xffffffc1][0x1a]x[0xffffffcb][0xffffffb5][0xffffffaf][0xffffffcf]9[0xffffffbe][0xfffffff7]8v[0xb][0x1c][0x1e]E4[0xfffffff6]$x4[0xffffffa1][0xb]*[0xffffffb1][0xffffffd1][0xffffff82][0xfffffffb]%[0xffffff93][0xffffffe0][0xffffffb3][0x10][0xffffffc1][0xffffffe5]qBY,!Y[0xffffffea] KM8,[0x10][0xfffffff0][0x19][0xffffffdd]u[0xffffff82][0x1e][0xffffffb0][0xffffffd8]L[0xffffffcb]%[0xffffff86][0xffffffa1][0xe][0xffffffb8][0xfffffff0]P[0xffffffe8]$[0xf][0x13]t[0x13]3[0xfffffff9][0xffffff84]B2[0xffffffae][0xffffffe6]|@[0xfffffff5][0x1d][0x8][0xffffffc4][0x18][0x16][0xffffff82]o[0xffffffa4][0xffffff9a]P[0xffffff94][0xffffffe7][0xffffffce]R[0xfffffff0][0x8][0xffffffdb]p[0xffffffcb][0x4][0xfffffffa][0xfffffffc][0xffffffb9][\r][0xffffff93][0x15][\n]"
+13:42:28,854 DEBUG wire:92 - http-outgoing-0 << "[0xffffffda][0xffffff86][0xffffffa1][0x17][0xffffffa8]Q3[0xffffffcb][0xffffffd6][0xffffffd1][0xffffff85][0xffffffc6][0xfffffff7][0xffffff98][0xffffffef][0xffffffa3][0xffffffc0]8[0x1][0xffffffae]s[0x12][0x16][0x7] _d[0xffffff82][0xffffff91][0xffffff84][0xfffffff3][0x1f],[0xfffffff6][0x14]j[0x1b]F,^+[0xffffff98]1ua2[0xffffffbf]h([0xffffff8e][0xffffff94][0xffffffa2][0xffffff91]m[0xffffffa3][0xffffffeb][0xffffff9a][0xffffffb0][0xffffffbb]I[0x17]t[0xffffffdf][0xffffffbd][0xffffffef][0xffffffbb][0xffffff91][0xffffffd7]U[0xffffffbb][0xffffff82][0xffffff9e][0x3][0xffffff9b][0xffffff88][0xffffffb9][0xffffffa6]$[0xffffffa6][0xc][0xffffff9b][0xffffffa5][0xffffffe2][0xffffff83][0xffffff98]F[0xffffffd8]o[0xffffff9e]Mg[0xffffff93][0xffffffbb][0xffffffd9]`|[0xfffffffb]u4[0xffffff9c][0x7f]"}B[0xffffffce][0x8][0xffffffb9][0xffffffe3]<[0x8][0xffffff91][0xffffff90][0xffffff94][0xffffff82][0xffffff90][0xffffffc1]j[0x15]2WI[0xffffffe3]1![0x19][0xffffff91]BnB[0xffffff80][0x9]<f[0xffffffb5][0xffffffe8]=[0xffffffd1]p[0xffffffbd][[0xffffffcf][0xffffffe5][0x1b][0xfffffff4][0xffffff9c][0xffffffff][0xfffffffc][0xfffffff8][0xffffffe1][0xffffffe2][0xffffff94][0xffffffa2][0xffffffae][0xe][0x14]5[0xffffff9a]8[0xffffff83][0xffffffd1]`:[0xfffffffd]<[0xffffffb8][0x1f][0xffffff9c]R[0xffffffcf]u[0x7f]6[0xffffffbc][0xffffff83][0xffffffef][0xf][0xffffffc3][0xffffffd9]/[0xfffffff8][0xfffffff2][0xffffffcd]y s[0xffffffee]'[0x1b]*0g[0xffffffcb][0xffffffc8]nF7H][0xffffff83][0xffffff97]{[0xffffffb1]Q[0x5][\r][0xffffffb5]c[0xffffffb4][0xf][0x2][0xffffffb3][0xffffffb4][0xffffff93][0xe]C[0xffffffa7][0xffffffb3]kAD][0xffffff9d][0xffffffde][0xffffffdb][0xffffffda][0xffffff88][0xffffffec][0xffffffa5][0xffffffbc][0xffffff99][0xffffffd9][0xffffffba]t[0xffffffb5][0xffffffea]9[0xffffffea][0x10])[0xffffffb7][0xffffffca][0xffffff9e][0xfffffff2][0xffffffe2]d^N[0xffffffd8]FW[0x16][0xffffffcd][0xffffffdc]_[0x10][0xfffffff9]i|[0x1c][0xffffff93][0xffffff8e][0xfffffff9]o[0x16][0xffffff86]4'!$G[0xffffffdf]W[0xfffffff4]W*j[[0xfffffff3]xR[0xffffffae][0xffffffb6][0xc][0xffffffd0],; #[0xffffffa9][0xffffff92]5[0xffffffb5][0x7][0xffffff9c][0xffffffb5][0xffffffd0][0x7f][0xffffff90][0xffffffc7]jgs[0xfffffffc][0xffffffc2][0xb][0xffffffd9][0x0]t[0xffffff9e]^'Y[0xfffffffb][0xffffff9f][0xffffffb1][0xffffffd8]:[0xffffffbf][0xffffff8d][0xffffffa5][0xffffff9a][0xffffffad][0x7f]m[0x5]&[0xffffffaa][0xffffffa0]^[0xffffff9b][0xffffffcb][0x5]f[0xffffffae][0xffffffe0]RU[0xffffff82][0x10]MS9l[0xffffff91]4t[0xfffffffb][0xffffff8a]][0xffffffd6][0xfffffff4][0xffffff96][0xffffffa6][0xffffff9f]P[0xffffffce][0xffffffd5][0xffffffce][0xffffff93][0xffffffff][0xffffff97][0xffffffcc]p[0xfffffffd][0xfffffff3][0xffffffe8][0x1b][0xffffffcc][0xffffffa2][0xffffffd9]Q[0xffffffbe][0xffffffb2][0xffffffa3][0xffffffc7]m'[0xffffffdf][0xffffffe4][[0xfffffffb]^[0xffffffb0][0xffffff9a][0xffffffbe][0xffffffda][0xffffffda]_[0xffffffce][0xffffff80][0xffffffd2][0xffffffc1]7[0xffffffb7]][0xffffffc1]b[0xffffffee][0xffffffb5][0xffffffff]w[0xffffff83][0xffffffed][0xffffffa7];[0x15]<[0x10]4[0xffffff92][0xffffff84][0x18][\n]"
+13:42:28,854 DEBUG wire:92 - http-outgoing-0 << "BB[0xffffffba][0xffffff8e]][0xffffffb5]jo[0xffffffb9]+"[0xffffffea][0xffffffb4][0xffffffff]h"[0xffffffea]\?5[0xffffffa9][0xffffffaf]k[0xffffffec][0xffffffff]P[0xffffffea][\n]"
+13:42:28,854 DEBUG wire:106 - http-outgoing-0 << "w[0xffffffe1]K[0x13][0xffffffda][0xffffffec][0xffffff98][0xffffffe6]Y[0xfffffffd]h8m6[0xffffff9c]T[0xffffffc1][0xfffffff2][0xffffffa7][0xffffff91]z_[0xffffff95]o85p[0x1c][0x13][0xffffffe6][0xfffffff0]5[0xffffffee][0xfffffffc][0xffffff92][0xffffff96][0xffffffda][0xfffffff7][0xffffffcf][0xffffffb1][0x5][0x1d][0xffffffea]K[0xffffff9b]9[0xffffff8e][0xffffffad]e[0xfffffff7][0xffffff93][0xffffffa8]`[0xffffffda][0xffffffff][0x1a][0xffffffd2][0xffffff88][0xffffff85][0xfffffffd][0xfffffff2][0xffffff91]N[0xfffffff6]`[0xffffffdf]2[0xffffffcf][0xffffffae]E[0xffffff97][0xffffffc5][0xffffffa2][0xffffff9d][0xffffffef]'[0xffffff9d]mun.[0xffffffd3]f^[0xffffffc7][0xffffff82][0xffffffda][0xffffff82]9[0xfffffff5][0xffffffa9]`[0x5][0xffffffbc]4[0xffffffa1][0x1d]<M[0xffffffb5]A[0xffffffa7]3[[0xffffffc0][0x7f][0x0][0xffffffc1][0xffffffd0]$[0xffffff85][0x1d][\r][0x0][0x0]"
+13:42:28,858 DEBUG InternalHttpClient:256 - ep-0000000001 releasing valid endpoint
+13:42:28,859 DEBUG PoolingHttpClientConnectionManager:389 - ep-0000000001 releasing endpoint
+13:42:28,860 DEBUG PoolingHttpClientConnectionManager:408 - ep-0000000001 connection http-outgoing-0 can be kept alive for 3 MINUTES
+13:42:28,861 DEBUG PoolingHttpClientConnectionManager:421 - ep-0000000001 connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+13:42:28,861 DEBUG VersionDetector:205 - Detecting edge version using online commands.properties
+13:42:28,869 DEBUG Shell:65 - Running command on the shell: [/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge, -version]
+13:42:32,652 DEBUG Shell:69 - Result: Microsoft Edge 111.0.1661.44
+13:42:32,657 DEBUG ResolutionCache:156 - Removing resolution edge111=111.0.1661.44 from cache (expired on Sun Mar 19 08:26:48 IST 2023)
+13:42:32,661 DEBUG InternalHttpClient:164 - ex-0000000002 preparing request execution
+13:42:32,662 DEBUG ProtocolExec:181 - ex-0000000002 target auth state: UNCHALLENGED
+13:42:32,662 DEBUG ProtocolExec:187 - ex-0000000002 proxy auth state: UNCHALLENGED
+13:42:32,662 DEBUG ConnectExec:123 - ex-0000000002 acquiring connection with route {s}->https://msedgedriver.azureedge.net:443
+13:42:32,662 DEBUG InternalHttpClient:101 - ex-0000000002 acquiring endpoint (3 MINUTES)
+13:42:32,662 DEBUG PoolingHttpClientConnectionManager:296 - ex-0000000002 endpoint lease request (3 MINUTES) [route: {s}->https://msedgedriver.azureedge.net:443][total available: 1; route allocated: 0 of 5; total allocated: 1 of 25]
+13:42:32,663 DEBUG PoolingHttpClientConnectionManager:318 - ex-0000000002 endpoint leased [route: {s}->https://msedgedriver.azureedge.net:443][total available: 1; route allocated: 1 of 5; total allocated: 2 of 25]
+13:42:32,663 DEBUG PoolingHttpClientConnectionManager:360 - ex-0000000002 acquired ep-0000000002
+13:42:32,663 DEBUG InternalHttpClient:116 - ex-0000000002 acquired endpoint ep-0000000002
+13:42:32,663 DEBUG ConnectExec:130 - ex-0000000002 opening connection {s}->https://msedgedriver.azureedge.net:443
+13:42:32,663 DEBUG InternalHttpClient:160 - ep-0000000002 connecting endpoint (null)
+13:42:32,664 DEBUG PoolingHttpClientConnectionManager:444 - ep-0000000002 connecting endpoint to https://msedgedriver.azureedge.net:443 (30 SECONDS)
+13:42:32,664 DEBUG DefaultHttpClientConnectionOperator:138 - msedgedriver.azureedge.net resolving remote address
+13:42:32,864 DEBUG DefaultHttpClientConnectionOperator:144 - msedgedriver.azureedge.net resolved to [msedgedriver.azureedge.net/13.107.237.52, msedgedriver.azureedge.net/13.107.238.52, msedgedriver.azureedge.net/2620:1ec:4e:1:0:0:0:52, msedgedriver.azureedge.net/2620:1ec:4f:1:0:0:0:52]
+13:42:32,875 DEBUG DefaultHttpClientConnectionOperator:177 - msedgedriver.azureedge.net:443 connecting null->msedgedriver.azureedge.net/13.107.237.52:443 (30 SECONDS)
+13:42:32,877 DEBUG SSLConnectionSocketFactory:226 - Connecting socket to msedgedriver.azureedge.net/13.107.237.52:443 with timeout 30 SECONDS
+13:42:32,924 DEBUG SSLConnectionSocketFactory:299 - Enabled protocols: [TLSv1.3, TLSv1.2]
+13:42:32,926 DEBUG SSLConnectionSocketFactory:300 - Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+13:42:32,927 DEBUG SSLConnectionSocketFactory:301 - Starting handshake (null)
+13:42:33,107 DEBUG SSLConnectionSocketFactory:59 - Secure session established
+13:42:33,108 DEBUG SSLConnectionSocketFactory:60 -  negotiated protocol: TLSv1.2
+13:42:33,108 DEBUG SSLConnectionSocketFactory:61 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+13:42:33,108 DEBUG SSLConnectionSocketFactory:71 -  peer principal: CN=*.azureedge.net, O=Microsoft Corporation, L=Redmond, ST=WA, C=US
+13:42:33,108 DEBUG SSLConnectionSocketFactory:80 -  peer alternative names: [*.media.microsoftstream.com, *.azureedge.net, *.origin.mediaservices.windows.net, *.streaming.mediaservices.windows.net]
+13:42:33,109 DEBUG SSLConnectionSocketFactory:84 -  issuer principal: CN=Microsoft Azure TLS Issuing CA 01, O=Microsoft Corporation, C=US
+13:42:33,109 DEBUG DefaultManagedHttpClientConnection:165 - http-outgoing-1 set socket timeout to 3 MINUTES
+13:42:33,109 DEBUG DefaultHttpClientConnectionOperator:185 - msedgedriver.azureedge.net:443 connected null->msedgedriver.azureedge.net/13.107.237.52:443 as http-outgoing-1
+13:42:33,109 DEBUG PoolingHttpClientConnectionManager:456 - ep-0000000002 connected http-outgoing-1
+13:42:33,109 DEBUG InternalHttpClient:164 - ep-0000000002 endpoint connected
+13:42:33,110 DEBUG MainClientExec:107 - ex-0000000002 executing GET /LATEST_RELEASE_111_MACOS HTTP/1.1
+13:42:33,110 DEBUG RequestAddCookies:129 - ex-0000000002 Cookie spec selected: strict
+13:42:33,110 DEBUG InternalHttpClient:214 - ep-0000000002 start execution ex-0000000002
+13:42:33,110 DEBUG PoolingHttpClientConnectionManager:710 - ep-0000000002 executing exchange ex-0000000002 over http-outgoing-1
+13:42:33,110 DEBUG headers:200 - http-outgoing-1 >> GET /LATEST_RELEASE_111_MACOS HTTP/1.1
+13:42:33,111 DEBUG headers:203 - http-outgoing-1 >> user-agent: Apache-HttpClient/5.0
+13:42:33,111 DEBUG headers:203 - http-outgoing-1 >> accept-encoding: gzip, deflate, br
+13:42:33,111 DEBUG headers:203 - http-outgoing-1 >> cache-control: max-age=0
+13:42:33,111 DEBUG headers:203 - http-outgoing-1 >> connection: keep-alive
+13:42:33,111 DEBUG headers:203 - http-outgoing-1 >> Host: msedgedriver.azureedge.net
+13:42:33,112 DEBUG wire:92 - http-outgoing-1 >> "GET /LATEST_RELEASE_111_MACOS HTTP/1.1[\r][\n]"
+13:42:33,113 DEBUG wire:92 - http-outgoing-1 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+13:42:33,113 DEBUG wire:92 - http-outgoing-1 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+13:42:33,113 DEBUG wire:92 - http-outgoing-1 >> "cache-control: max-age=0[\r][\n]"
+13:42:33,113 DEBUG wire:92 - http-outgoing-1 >> "connection: keep-alive[\r][\n]"
+13:42:33,114 DEBUG wire:92 - http-outgoing-1 >> "Host: msedgedriver.azureedge.net[\r][\n]"
+13:42:33,114 DEBUG wire:92 - http-outgoing-1 >> "[\r][\n]"
+13:42:33,279 DEBUG wire:92 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+13:42:33,280 DEBUG wire:92 - http-outgoing-1 << "Content-Length: 32[\r][\n]"
+13:42:33,281 DEBUG wire:92 - http-outgoing-1 << "Content-Type: application/octet-stream[\r][\n]"
+13:42:33,281 DEBUG wire:92 - http-outgoing-1 << "Content-MD5: CrOcUEc3KrIlSDcjRgNFcQ==[\r][\n]"
+13:42:33,282 DEBUG wire:92 - http-outgoing-1 << "Last-Modified: Thu, 16 Mar 2023 19:29:10 GMT[\r][\n]"
+13:42:33,284 DEBUG wire:92 - http-outgoing-1 << "ETag: 0x8DB2654B7E1B630[\r][\n]"
+13:42:33,285 DEBUG wire:92 - http-outgoing-1 << "Vary: Origin[\r][\n]"
+13:42:33,285 DEBUG wire:92 - http-outgoing-1 << "X-Cache: TCP_REMOTE_HIT[\r][\n]"
+13:42:33,285 DEBUG wire:92 - http-outgoing-1 << "x-ms-request-id: dc06a9b2-d01e-0028-52ad-5b9abd000000[\r][\n]"
+13:42:33,286 DEBUG wire:92 - http-outgoing-1 << "x-ms-version: 2009-09-19[\r][\n]"
+13:42:33,286 DEBUG wire:92 - http-outgoing-1 << "x-ms-lease-status: unlocked[\r][\n]"
+13:42:33,287 DEBUG wire:92 - http-outgoing-1 << "x-ms-blob-type: BlockBlob[\r][\n]"
+13:42:33,287 DEBUG wire:92 - http-outgoing-1 << "X-Azure-Ref-OriginShield: 08WYZZAAAAAAuDiHJoyNCRa8P8Qm4M22ETUFBMjAxMDYwNTE4MDA5AGJmZmRkYmVmLTIwODUtNDM5OS05NzAzLWI0MWFiNWMyOGE2Mw==[\r][\n]"
+13:42:33,288 DEBUG wire:92 - http-outgoing-1 << "X-Azure-Ref: 08WYZZAAAAAB/xlFZ9znVQ7WnMQ+d08l1Qk9NMDJFREdFMDkyMABiZmZkZGJlZi0yMDg1LTQzOTktOTcwMy1iNDFhYjVjMjhhNjM=[\r][\n]"
+13:42:33,288 DEBUG wire:92 - http-outgoing-1 << "Date: Tue, 21 Mar 2023 08:12:33 GMT[\r][\n]"
+13:42:33,289 DEBUG wire:92 - http-outgoing-1 << "[\r][\n]"
+13:42:33,289 DEBUG wire:92 - http-outgoing-1 << "[0xffffffff][0xfffffffe]1[0x0]1[0x0]1[0x0].[0x0]0[0x0].[0x0]1[0x0]6[0x0]6[0x0]1[0x0].[0x0]4[0x0]4[0x0][\r][0x0][\n]"
+13:42:33,290 DEBUG wire:106 - http-outgoing-1 << "[0x0]"
+13:42:33,291 DEBUG headers:189 - http-outgoing-1 << HTTP/1.1 200 OK
+13:42:33,291 DEBUG headers:192 - http-outgoing-1 << Content-Length: 32
+13:42:33,291 DEBUG headers:192 - http-outgoing-1 << Content-Type: application/octet-stream
+13:42:33,292 DEBUG headers:192 - http-outgoing-1 << Content-MD5: CrOcUEc3KrIlSDcjRgNFcQ==
+13:42:33,292 DEBUG headers:192 - http-outgoing-1 << Last-Modified: Thu, 16 Mar 2023 19:29:10 GMT
+13:42:33,292 DEBUG headers:192 - http-outgoing-1 << ETag: 0x8DB2654B7E1B630
+13:42:33,293 DEBUG headers:192 - http-outgoing-1 << Vary: Origin
+13:42:33,293 DEBUG headers:192 - http-outgoing-1 << X-Cache: TCP_REMOTE_HIT
+13:42:33,293 DEBUG headers:192 - http-outgoing-1 << x-ms-request-id: dc06a9b2-d01e-0028-52ad-5b9abd000000
+13:42:33,293 DEBUG headers:192 - http-outgoing-1 << x-ms-version: 2009-09-19
+13:42:33,294 DEBUG headers:192 - http-outgoing-1 << x-ms-lease-status: unlocked
+13:42:33,294 DEBUG headers:192 - http-outgoing-1 << x-ms-blob-type: BlockBlob
+13:42:33,294 DEBUG headers:192 - http-outgoing-1 << X-Azure-Ref-OriginShield: 08WYZZAAAAAAuDiHJoyNCRa8P8Qm4M22ETUFBMjAxMDYwNTE4MDA5AGJmZmRkYmVmLTIwODUtNDM5OS05NzAzLWI0MWFiNWMyOGE2Mw==
+13:42:33,294 DEBUG headers:192 - http-outgoing-1 << X-Azure-Ref: 08WYZZAAAAAB/xlFZ9znVQ7WnMQ+d08l1Qk9NMDJFREdFMDkyMABiZmZkZGJlZi0yMDg1LTQzOTktOTcwMy1iNDFhYjVjMjhhNjM=
+13:42:33,294 DEBUG headers:192 - http-outgoing-1 << Date: Tue, 21 Mar 2023 08:12:33 GMT
+13:42:33,295 DEBUG MainClientExec:138 - ex-0000000002 connection can be kept alive for 3 MINUTES
+13:42:33,296 DEBUG InternalHttpClient:256 - ep-0000000002 releasing valid endpoint
+13:42:33,297 DEBUG PoolingHttpClientConnectionManager:389 - ep-0000000002 releasing endpoint
+13:42:33,297 DEBUG PoolingHttpClientConnectionManager:408 - ep-0000000002 connection http-outgoing-1 can be kept alive for 3 MINUTES
+13:42:33,298 DEBUG PoolingHttpClientConnectionManager:421 - ep-0000000002 connection released [route: {s}->https://msedgedriver.azureedge.net:443][total available: 2; route allocated: 1 of 5; total allocated: 2 of 25]
+13:42:33,298 DEBUG VersionDetector:127 - Latest version of msedgedriver according to https://msedgedriver.azureedge.net/LATEST_RELEASE_111_MACOS is 111.0.1661.44
+13:42:33,299  INFO WebDriverManager:1238 - Using msedgedriver 111.0.1661.44 (resolved driver for Edge 111)
+13:42:33,305 DEBUG ResolutionCache:119 - Storing resolution edge=111 in cache (valid until 14:42:33 21/03/2023 IST)
+13:42:33,307 DEBUG ResolutionCache:119 - Storing resolution edge111=111.0.1661.44 in cache (valid until 13:42:33 22/03/2023 IST)
+13:42:33,322 DEBUG WebDriverManager:1193 - Driver msedgedriver 111.0.1661.44 found in cache
+13:42:33,323  INFO WebDriverManager:1291 - Exporting webdriver.edge.driver as /Users/sinhapoo/.cache/selenium/msedgedriver/mac64/111.0.1661.44/msedgedriver
+13:42:33,428 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+13:42:33,431 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+13:42:33,431 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+13:42:33,434 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@245a26e1
+13:42:33,446 DEBUG PlatformDependent0:496 - -Dio.netty.noUnsafe: false
+13:42:33,447 DEBUG PlatformDependent0:1000 - Java version: 17
+13:42:33,448 DEBUG PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+13:42:33,448 DEBUG PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+13:42:33,449 DEBUG PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+13:42:33,449 DEBUG PlatformDependent0:236 - java.nio.Buffer.address: available
+13:42:33,450 DEBUG PlatformDependent0:320 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+13:42:33,450 DEBUG PlatformDependent0:385 - java.nio.Bits.unaligned: available, true
+13:42:33,451 DEBUG PlatformDependent0:452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2013a92c
+13:42:33,453 DEBUG PlatformDependent0:482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+13:42:33,455 DEBUG PlatformDependent:1159 - sun.misc.Unsafe: available
+13:42:33,502 DEBUG PlatformDependent:1270 - maxDirectMemory: 8589934592 bytes (maybe)
+13:42:33,503 DEBUG PlatformDependent:1289 - -Dio.netty.tmpdir: /var/folders/wk/_7tty6_54h924md406717jkc0000gr/T (java.io.tmpdir)
+13:42:33,503 DEBUG PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+13:42:33,504 DEBUG PlatformDependent:1127 - Platform: MacOS
+13:42:33,505 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+13:42:33,505 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+13:42:33,506 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+13:42:33,506 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+13:42:33,512 DEBUG PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+13:42:33,531 DEBUG InternalThreadLocalMap:100 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+13:42:33,531 DEBUG InternalThreadLocalMap:101 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+13:42:33,544 DEBUG JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+13:42:33,545 DEBUG JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+13:42:33,560 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 20
+13:42:33,567 DEBUG NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+13:42:33,567 DEBUG NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+13:42:33,587 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 20
+13:42:33,587 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 20
+13:42:33,587 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+13:42:33,588 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+13:42:33,588 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+13:42:33,589 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+13:42:33,589 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+13:42:33,589 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+13:42:33,589 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+13:42:33,590 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+13:42:33,590 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+13:42:33,590 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+13:42:33,599 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+13:42:33,599 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+13:42:33,599 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+13:42:34,676 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 35048 (auto-detected)
+13:42:34,679 DEBUG NetUtil:142 - -Djava.net.preferIPv4Stack: false
+13:42:34,679 DEBUG NetUtil:143 - -Djava.net.preferIPv6Addresses: false
+13:42:34,683 DEBUG NetUtilInitializations:139 - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+13:42:34,684 DEBUG NetUtil:200 - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+13:42:34,688 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: bc:d0:74:ff:fe:64:42:bd (auto-detected)
+13:42:34,738 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+13:42:34,739 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+13:42:34,739 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@69e158e2
+13:42:34,765 DEBUG NettyConnectListener:73 - Using new Channel '[id: 0xf2bd03a1, L:/127.0.0.1:64384 - R:localhost/127.0.0.1:40928]' for 'POST' to '/session'
+13:42:34,772 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+13:42:34,773 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+13:42:34,774 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+13:42:34,774 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+13:42:41,262 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+13:42:41,266 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.8.1 (java mac)
+Content-Length: 371
+Content-Type: application/json; charset=utf-8
+host: localhost:40928
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 838
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+13:42:41,272 DEBUG ChannelManager:270 - Adding key: http://localhost:40928 for channel [id: 0xf2bd03a1, L:/127.0.0.1:64384 - R:localhost/127.0.0.1:40928]
+13:42:41,360 DEBUG NettyConnectListener:73 - Using new Channel '[id: 0x9f83701e, L:/127.0.0.1:64416 - R:localhost/127.0.0.1:64409]' for 'GET' to '/json/version'
+13:42:41,362 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.8.1 (java mac)
+host: localhost:64409
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Security-Policy: frame-ancestors 'none'
+Content-Length: 434
+Content-Type: application/json; charset=UTF-8
+
+13:42:41,363 DEBUG ChannelManager:270 - Adding key: http://localhost:64409 for channel [id: 0x9f83701e, L:/127.0.0.1:64416 - R:localhost/127.0.0.1:64409]
+13:42:41,374 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x423844b9d3e1c7fd
+13:42:41,380 DEBUG NettyConnectListener:73 - Using new Channel '[id: 0xec811c4b, L:/127.0.0.1:64417 - R:localhost/127.0.0.1:64409]' for 'GET' to '/devtools/browser/28879c25-8397-4f80-8c39-89831e813d16'
+13:42:41,384 DEBUG WebSocketHandler:105 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/28879c25-8397-4f80-8c39-89831e813d16 HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: MBhLbjkyCIi0acIG+zw/fw==
+sec-websocket-version: 13
+origin: http://localhost:64409
+host: localhost:64409
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: fivW366rn7C/SMDQblwzOM29xNg=
+
+13:42:41,445 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0xf2bd03a1, L:/127.0.0.1:64384 - R:localhost/127.0.0.1:40928]' for 'POST' to 'http://localhost:40928/session/c88e9320ac6a504c95a2c10dc719fc77/url'
+13:42:41,447 DEBUG NettyRequestSender:251 - Using open Channel [id: 0xf2bd03a1, L:/127.0.0.1:64384 - R:localhost/127.0.0.1:40928] for POST '/session/c88e9320ac6a504c95a2c10dc719fc77/url'
+13:42:42,328 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:43,420 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:44,524 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:45,623 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:46,724 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:47,824 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:48,922 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:50,024 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:51,125 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:52,220 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:53,323 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:54,425 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:55,525 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:56,624 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:57,725 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:57,983 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/c88e9320ac6a504c95a2c10dc719fc77/url HTTP/1.1
+User-Agent: selenium/4.8.1 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:40928
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+13:42:57,984 DEBUG ChannelManager:270 - Adding key: http://localhost:40928 for channel [id: 0xf2bd03a1, L:/127.0.0.1:64384 - R:localhost/127.0.0.1:40928]
+13:42:57,991 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0xf2bd03a1, L:/127.0.0.1:64384 - R:localhost/127.0.0.1:40928]' for 'POST' to 'http://localhost:40928/session/c88e9320ac6a504c95a2c10dc719fc77/window/maximize'
+13:42:57,992 DEBUG NettyRequestSender:251 - Using open Channel [id: 0xf2bd03a1, L:/127.0.0.1:64384 - R:localhost/127.0.0.1:40928] for POST '/session/c88e9320ac6a504c95a2c10dc719fc77/window/maximize'
+13:42:58,825 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:59,033 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/c88e9320ac6a504c95a2c10dc719fc77/window/maximize HTTP/1.1
+User-Agent: selenium/4.8.1 (java mac)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:40928
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 51
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+13:42:59,034 DEBUG ChannelManager:270 - Adding key: http://localhost:40928 for channel [id: 0xf2bd03a1, L:/127.0.0.1:64384 - R:localhost/127.0.0.1:40928]
+13:42:59,038 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0xf2bd03a1, L:/127.0.0.1:64384 - R:localhost/127.0.0.1:40928]' for 'POST' to 'http://localhost:40928/session/c88e9320ac6a504c95a2c10dc719fc77/timeouts'
+13:42:59,038 DEBUG NettyRequestSender:251 - Using open Channel [id: 0xf2bd03a1, L:/127.0.0.1:64384 - R:localhost/127.0.0.1:40928] for POST '/session/c88e9320ac6a504c95a2c10dc719fc77/timeouts'
+13:42:59,041 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/c88e9320ac6a504c95a2c10dc719fc77/timeouts HTTP/1.1
+User-Agent: selenium/4.8.1 (java mac)
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+host: localhost:40928
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+13:42:59,042 DEBUG ChannelManager:270 - Adding key: http://localhost:40928 for channel [id: 0xf2bd03a1, L:/127.0.0.1:64384 - R:localhost/127.0.0.1:40928]
+13:42:59,921 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:42:59,922 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:40928 : 1
+13:43:01,025 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:43:01,026 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:40928 : 1
+13:43:02,124 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:43:02,124 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:40928 : 1
+13:43:03,225 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:43:03,225 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:40928 : 1
+13:43:04,093 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0xf2bd03a1, L:/127.0.0.1:64384 - R:localhost/127.0.0.1:40928]' for 'DELETE' to 'http://localhost:40928/session/c88e9320ac6a504c95a2c10dc719fc77'
+13:43:04,093 DEBUG NettyRequestSender:251 - Using open Channel [id: 0xf2bd03a1, L:/127.0.0.1:64384 - R:localhost/127.0.0.1:40928] for DELETE '/session/c88e9320ac6a504c95a2c10dc719fc77'
+13:43:04,095 DEBUG WebSocketHandler:126 - Channel Closed: [id: 0xec811c4b, L:/127.0.0.1:64417 ! R:localhost/127.0.0.1:64409] with attribute NettyResponseFuture{currentRetry=0,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@7861ac83,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@381693e,
+	future=java.util.concurrent.CompletableFuture@7e387633[Completed normally],
+	uri=ws://localhost:64409/devtools/browser/28879c25-8397-4f80-8c39-89831e813d16,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1679386361402}
+13:43:04,096 DEBUG ChannelManager:315 - Closing Channel [id: 0xec811c4b, L:/127.0.0.1:64417 ! R:localhost/127.0.0.1:64409] 
+13:43:04,111 DEBUG HttpHandler:126 - Channel Closed: [id: 0x9f83701e, L:/127.0.0.1:64416 ! R:localhost/127.0.0.1:64409] with attribute DISCARD
+13:43:04,147 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/c88e9320ac6a504c95a2c10dc719fc77 HTTP/1.1
+User-Agent: selenium/4.8.1 (java mac)
+Content-Type: application/json; charset=utf-8
+host: localhost:40928
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+13:43:04,148 DEBUG ChannelManager:270 - Adding key: http://localhost:40928 for channel [id: 0xf2bd03a1, L:/127.0.0.1:64384 - R:localhost/127.0.0.1:40928]
+13:43:04,200 DEBUG HttpHandler:126 - Channel Closed: [id: 0xf2bd03a1, L:/127.0.0.1:64384 ! R:localhost/127.0.0.1:40928] with attribute DISCARD
+13:43:04,325 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:64409 : 1
+13:43:04,325 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:40928 : 1
+13:43:04,326 DEBUG DefaultChannelPool:302 - Adding Candidate expired Channel [id: 0x9f83701e, L:/127.0.0.1:64416 ! R:localhost/127.0.0.1:64409] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+13:43:04,326 DEBUG DefaultChannelPool:321 - Closing Idle Channel [id: 0x9f83701e, L:/127.0.0.1:64416 ! R:localhost/127.0.0.1:64409]
+13:43:04,328 DEBUG DefaultChannelPool:302 - Adding Candidate expired Channel [id: 0xf2bd03a1, L:/127.0.0.1:64384 ! R:localhost/127.0.0.1:40928] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+13:43:04,328 DEBUG DefaultChannelPool:321 - Closing Idle Channel [id: 0xf2bd03a1, L:/127.0.0.1:64384 ! R:localhost/127.0.0.1:40928]
+13:43:04,329 DEBUG DefaultChannelPool:374 - Closed 2 connections out of 2 in 3 ms
+13:48:19,460 DEBUG TestNG:82 - suiteXmlPath: "/Users/sinhapoo/git/FIndHome/src/test/resources/runners/testng.xml"

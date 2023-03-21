@@ -18,6 +18,7 @@ import org.testng.annotations.BeforeSuite;
 import org.apache.log4j.Logger;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import utility.ExcelReader;
 
 public class TestBase {
 	public static WebDriver driver;
@@ -26,6 +27,8 @@ public class TestBase {
 	public static FileInputStream fis;
 	public WebDriverWait wait;
 	public Logger log = LogHandler.log;
+	public ExcelReader excel = new ExcelReader("./src/test/resources/files/credentials.xlsx");
+
 	
 	@BeforeSuite
 	public void setup() {
